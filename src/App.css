@@ -1,0 +1,60 @@
+*{
+  font-family: "Poppins", sans-serif;
+}
+#home{
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  
+}
+.image img{
+  border-radius: 30px;
+}
+.changecontent::after{
+  content: ' ';
+  color: rgb(221, 203, 4);
+  animation: changetxt 9s infinite linear;
+}
+@keyframes changetxt {
+  0% { content: "F"; }
+  5% { content: "Fu"; }
+  10% { content: "Ful"; }
+  15% { content: "Full"; }
+  20% { content: "Full "; }
+  25% { content: "Full S"; }
+  30% { content: "Full St"; }
+  35% { content: "Full Sta"; }
+  40% { content: "Full Stac"; }
+  45% { content: "Full Stack"; }
+  50% { content: "Full Stack "; }
+  55% { content: "Full Stack D"; }
+  60% { content: "Full Stack De"; }
+  65% { content: "Full Stack Dev"; }
+  70% { content: "Full Stack Deve"; }
+  75% { content: "Full Stack Devel"; }
+  80% { content: "Full Stack Develo"; }
+  85% { content: "Full Stack Develop"; }
+  90% { content: "Full Stack Develope"; }
+  95% { content: "Full Stack Developer"; }
+}
+#about{
+  width: 100%;
+  max-height: 100vh;
+
+}
+#skills{
+  width: 100%;
+  max-height: 100vh;
+}
+.card{
+  transition: all 0.5s;
+}
+.card:hover{
+  transform: scale(1.1);
+}
+#projects{
+  width: 100%;
+  height: 100vh;
+}
