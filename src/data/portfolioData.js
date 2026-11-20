@@ -186,27 +186,28 @@ export const portfolioData = {
   timeline: [
     {
       type: "experience",
-      period: "2024 - Present",
-      title: "Full Stack MEARN Developer Trainee",
-      organization: "Luminar Technolab / Specialized Training",
-      location: "Kerala, India",
-      description: "Intensive hands-on training and project building in the MEARN stack (MongoDB, Express.js, React.js, Node.js). Engineered full-stack web applications, built secure RESTful APIs, and mastered modern state management and responsive web development."
+      period: "Jan 2024 - Jul 2024",
+      title: "Full Stack MEAN / MERN Developer Trainee",
+      organization: "Luminar Technolab",
+      location: "Kochi, Kerala, India",
+      description: "Completed intensive 6-month hands-on professional training in MEAN / MERN Full Stack development. Built full-stack web applications with React.js, Node.js, Express.js, and MongoDB, developed RESTful APIs, modern state management, and graduated with Grade A+ (Excellent)."
     },
     {
       type: "education",
-      period: "2020 - 2023",
-      title: "Bachelor's Degree in Computer Science / Applications",
-      organization: "University College",
-      location: "Kerala, India",
-      description: "Gained comprehensive foundation in algorithms, data structures, object-oriented programming, database management systems, and software engineering methodologies."
+      period: "2023 - 2026",
+      title: "Bachelor of Computer Applications (BCA)",
+      organization: "Indira Gandhi National Open University (IGNOU)",
+      location: "India",
+      description: "Pursuing Bachelor's degree with a solid foundation in computer applications, software engineering principles, database systems, object-oriented programming, and modern web application development."
     },
     {
       type: "certification",
-      period: "2024",
-      title: "Certified Full Stack MEARN Developer",
-      organization: "Professional Tech Certification",
-      location: "Online / Kerala",
-      description: "Comprehensive certification verifying mastery of React.js, Node.js, Express, MongoDB, REST APIs, Git, and full-stack software deployment."
+      period: "Aug 2024",
+      title: "Certified MEAN / MERN Full Stack Developer (Grade A+)",
+      organization: "National Council for Technology and Training (NACTET)",
+      location: "New Delhi / Kerala, India",
+      description: "Autonomous organization recognized by Govt. of India. Certified in 6-month MEAN / MERN Full Stack development course through affiliate Luminar Technolab, awarded under seal with Grade A+ (Register No: 48924, Certificate No: 116766).",
+      certificateImage: "/nactet_certificate.jpg"
     }
   ]
 };
