@@ -16,7 +16,7 @@ export const portfolioData = {
     phone: "+91 7907882955",
     location: "Kerala, India",
     availability: "Available for Full-time Roles & Freelance Projects",
-    resumeUrl: "#", // User can replace with actual PDF link or place resume.pdf in public folder
+    resumeUrl: "/Nikhil_P_Resume.pdf",
     experienceYears: "1+ Years",
     projectsCompleted: "10+",
     technologiesCount: "12+"

@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faDownload, faArrowRight, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faDownload, faArrowRight, faEnvelope, faFileAlt } from '@fortawesome/free-solid-svg-icons';
 import { faReact, faNodeJs, faGithub, faLinkedin, faSquareWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import { portfolioData } from '../data/portfolioData';
 
@@ -80,12 +80,22 @@ function Hero({ onOpenResume }) {
                   Explore Projects <FontAwesomeIcon icon={faArrowRight} />
                 </a>
 
+                <a
+                  href="/Nikhil_P_Resume.pdf"
+                  download="Nikhil_P_Resume.pdf"
+                  className="btn-accent text-decoration-none"
+                  title="Download ATS-Friendly Resume PDF"
+                >
+                  Download Resume <FontAwesomeIcon icon={faDownload} />
+                </a>
+
                 <button
                   type="button"
                   className="btn-outline-custom"
                   onClick={onOpenResume}
+                  title="Preview ATS Resume"
                 >
-                  Download CV <FontAwesomeIcon icon={faDownload} />
+                  View CV <FontAwesomeIcon icon={faFileAlt} />
                 </button>
 
                 <a href="#contact" className="btn-outline-custom text-decoration-none">

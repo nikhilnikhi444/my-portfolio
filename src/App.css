@@ -649,6 +649,52 @@
   border-color: transparent;
 }
 
+/* ATS Resume Sheet Styling */
+.ats-resume-sheet {
+  background: #ffffff !important;
+  color: #1a1a1a !important;
+  font-family: Arial, Helvetica, sans-serif !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.ats-resume-sheet h2,
+.ats-resume-sheet h5,
+.ats-resume-sheet h6,
+.ats-resume-sheet strong {
+  color: #111111 !important;
+}
+
+.ats-resume-sheet p,
+.ats-resume-sheet li,
+.ats-resume-sheet span,
+.ats-resume-sheet a {
+  color: #2b2b2b !important;
+}
+
+.ats-resume-sheet ul {
+  list-style-type: disc;
+}
+
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  .ats-resume-sheet,
+  .ats-resume-sheet * {
+    visibility: visible;
+  }
+  .ats-resume-sheet {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-shadow: none !important;
+    border: none !important;
+  }
+}
+
 /* Responsive tweaks */
 @media (max-width: 991px) {
   .hero-section {
